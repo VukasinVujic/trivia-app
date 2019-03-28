@@ -11,9 +11,12 @@ Vue.use(BootstrapVue);
 import Vuex from "vuex";
 Vue.use(Vuex);
 
+import { store } from "./store.js";
+
 Vue.config.productionTip = false;
 
 new Vue({
   router,
+  store,
   render: h => h(App)
 }).$mount("#app");
