@@ -1,5 +1,6 @@
-const moduleB = {
-  // state: { ... },
-  // mutations: { ... },
-  // actions: { ... }
-};
+// const moduleB = {
+//   // state: {  },
+//   // getters: {},
+//   // mutations: {  },
+//   // actions: {  }
+// };

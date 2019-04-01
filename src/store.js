@@ -4,7 +4,7 @@ import Vuex from "vuex";
 import { ChuckModule } from "./moduls/ChuckModule";
 import { TriviaModule } from "./moduls/TriviaModule";
 
-Vue.use(Vuex);
+Vue.use(Vuex);  
 
 export const store = new Vuex.Store({
   modules: {
